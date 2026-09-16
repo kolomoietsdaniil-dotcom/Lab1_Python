@@ -61,12 +61,12 @@ def task_3():
     
 #Частина 3
     negativ_list = []
-    for i in range(n - 1):
+    for i in range(n):
         point = numbers[i]
         if point < 0:
             negativ_list.append(point)
 
-    print("Відємні елементи:\n ")
+    print("Відємні елементи:")
     len_of_list = len(negativ_list)
     for j in range(len_of_list):
         print(negativ_list[j])
