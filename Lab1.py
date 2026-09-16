@@ -66,6 +66,7 @@ def task_3():
         if point < 0:
             negativ_list.append(point)
 
+    print("Відємні елементи:\n ")
     len_of_list = len(negativ_list)
     for j in range(len_of_list):
         print(negativ_list[j])
