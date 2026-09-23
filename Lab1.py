@@ -40,7 +40,7 @@ def task_3():
 #Частина 1
     n = int(input("Введіть значення n: "))
 
-    numbers = [int(input(f"Введіть ціле число {i + 1}: ")) for i in range(n)]
+    numbers = [int(input(f"Введіть ціле число на {i} позиції: ")) for i in range(n)]
 
     max_value = max(numbers)
     print("Максимальне значення серед введених чисел:", max_value)
